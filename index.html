@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="UI/CSS/styles.css">
+    <title>my portfolio/ welcome</title>
+</head>
+<body>
+ <header>
+<div class="container">
+<div id="logo">
+<h1><span class="active">UJ</span> web developer</h1>    
+</div>
+<div class="topnav" id="myTopnav"   >
+    <a class="active" href="../index.html">Home</a>
+    <a href="UI/pages/about.html">About US</a>
+    <a href="UI/pages/contact.html">Contact Us</a>
+    <a href="UI/pages/services.html">Services</a>
+    <a href="UI/pages/blog.html">Blog</a>
+    <a href="UI/pages/login.html">Login</a>
+    
+    
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  
+    </div>
+    <script>
+              function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                      x.className += " responsive";
+                  } else {
+                      x.className = "topnav";
+                  }
+              }
+              </script>
+</div>     
+</header> 
+<section id="showcase">
+<div class="container">
+    <h1>Affordable Professional web developer</h1>
+<p>Hello! I am Jeannette, I teach and develop web pages</p>    
+</div>    
+</section> 
+<section id="articles">
+ <div class="container">
+  <h1>subscribe To Our Articles</h1>
+  <p class="w">Receive updates instantly</p>   
+  <form>
+      <input type="email" placeholder="fill your Email...">
+      <button type="submit" class="btn">Subscribe</button>
+  </form>
+</div>   
+</section> 
+<section id="boxes">
+    <div class="container">
+        <div class="box">
+            <img src="UI/Assets/5ht.png">
+            <h3>HTML5</h3>
+            <P>this lesson i will introduce you to<h3>Header</h3>and <h3>Paragraph</h3>Tags.
+                <br>webpages use Headers to identify main topics.<br>
+                Header tags run from h1> trough h6>.</P>
+        </div>
+        <div class="box">
+                <img src="UI/Assets/7cs.png">
+                <h3>CSS3</h3>
+                <P>In this lesson i will be presenting <br>how to create a such layout. <br>
+                   <h3> Css</h3>is used to format the margins,<br> text, and positioning of the <br>
+                     content.</P>
+            </div>
+            <div class="box">
+                    <img src="UI/Assets/wb9.png" style="width:60%" height="110px">
+                    <h3>Design</h3>
+                    <P>this lesson i will introduce you to<h3>Header</h3>and <h3>Paragraph</h3>Tags.
+                        <br>webpages use Headers to identify main topics.<br>
+                        Header tags run from h1> trough h6>.</P>
+                </div>
+    </div>
+    </section>
+    <footer><p>web developer, copyright &copy; 2020</p>
+    <div class="box"></div><img src="./assets/facbk.png"></div>
+    </footer>
+   
+</body>
+</html>
