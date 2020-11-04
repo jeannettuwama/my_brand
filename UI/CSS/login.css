@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.conten{
+    min-height: calc(100vh - 211px - 50px);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(121, 10, 10);
+}
+.form{
+    z-index: 1;
+    font-family: "poppins", sans-serif;
+    position: absolute;
+    width: 320px;
+    text-align: center;
+}
+.form i{
+    z-index: 1;
+    color: #ccc;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.form .signup-form{
+    display: none;
+    }
+.form .user-input{
+    width: 320px;
+    height: 55px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255,255, 0.2);
+    color: #cccdfe;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}
+.form .options-0{
+margin-bottom: 50px;
+}
+.form .options-0 input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.form .options-0 .remb-me{
+    color: #cccdfe;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+}
+.form .options-0 a{
+    color: #888;
+    font-size: 14px;
+    font-style: italic;
+    float: right;
+}
+.form .btns{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 55px;
+    background: #4285f4;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.form .options-1{
+    color: #bbb;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.form .options-1 a{
+color: #4285f4
+}
+
+
+@media screen and (max-width: 500px) {
+    .form{
+        width: 95%;
+
+    }
+    .form .user-input{
+        width: 100%;
+    }
+    .form .btns{
+        width: 100%;
+    }
+}
