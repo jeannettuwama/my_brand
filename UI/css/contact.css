@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&display=swap" rel="stylesheet');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+font-family: 'josephin Sans',sans-serif;
+}
+body{
+    background: #808080;
+    
+   
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+  max-width: 350px;
+ position: relative;
+ margin-top: 100px;
+ width: 450px;
+ height: auto;
+ background: #dedede;
+ border-radius: 10px;
+ justify-content: center;
+}
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+.wrapper .input_field{
+  margin-bottom: 10px;  
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+ height: 40px;
+ width: 350px;
+ padding: 0 5px;
+ font-size: 18px;
+ outline: none;
+
+ border: 1px solid silver;
+}
+.wrapper textarea{
+  height: 80px;
+  resize: none;
+}
+.wrapper .btnw input[type="submit"]{
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: rgb(137, 160, 137);
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 35px;
+  cursor: pointer;}
+  .wrapper .btnw input[type="submit"]:hover{
+    background-color: #665544;}
+
+    .wrapper .btnw input[type="submit"]:active{
+      background-color: chocolate;}
+
+
+
+
+
+.wrapper #error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background:#fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+
