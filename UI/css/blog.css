@@ -1,0 +1,157 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+.r{
+ text-align: center;
+ font-size: 60px;
+ color: #eeeeee;
+ margin: 1.5 0px;   
+}
+.s{
+    line-height: 20px;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: #ffffff;}
+    input.submit:hover {
+    background-color: #665544;}
+    input.submit:active {
+    background-color: chocolate;}
+    input.text {
+    color: #cccccc;}
+    input.text:focus {
+    color: #665544;}
+
+
+    .pic1{
+        
+        width: 25%;
+        float: right;
+        margin-bottom: 30px;
+       padding-right: 20px;
+        position: relative;
+        
+        background:  #99c2ff;
+        
+        
+    }
+    
+    .pic12{
+        
+        width: 25%;
+        float: right;
+        margin-bottom: 30px;
+       padding-right: 20px;
+        position: relative;
+        
+        background:  #eef1f7;
+        
+        
+    }
+
+.pic1 .x{
+    color: red;
+}
+
+.pic1 a{
+    color: black;
+}
+.pic1 :hover {
+  
+    background-color: #c6f1ec;
+     
+}
+
+
+.left-col{
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+    
+}
+.right-col {
+    margin-top: 30px;
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+    
+}
+
+input[type="submit"],button{
+    padding: 10px 15px;
+     border: none;
+     outline: none;
+     border-radius: 5px;
+     text-transform: uppercase;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ input[type="submit"]{
+  
+  color: #332902;
+  text-transform: uppercase;
+  background: rgb(137, 160, 137);
+ }
+ input[type="submit"]:hover{
+    background-color: #665544;}
+
+    input[type="submit"] :active{
+      background-color: chocolate;}
+
+ button{
+     color: #333;
+     background: transparent;
+ }
+ textarea{
+    height: 20px;
+    
+    border: none;
+    border-bottom: 2px solid#aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    
+}
+form{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.u{
+    width: 60%;
+}
+.s{
+   margin-top: 200px;
+}
+.right-col .pic{
+    margin-bottom: 10px;
+    margin-top: 60px;
+ 
+}
+@media(max-width:368px){
+    .left-col, .right-col, .doublecards, .pp, .pic12, .pic, .pic1{
+        width: 100%;
+        padding: 0;
+        float: right;
+        display: block;
+
+        
+    }
+    .pp, .pic{
+        float: left;
+    }
+
+    h2{
+        position: relative;
+        left: 100px;
+    }
+    footer{
+        float: left;
+        width: 100%;
+    }
+}
